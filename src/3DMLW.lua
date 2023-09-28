@@ -29,6 +29,10 @@ end
 -- Method to initialize the plugin.
 function 3DMLWPlugin:init()
     -- Add initialization code here
+ local 3DMLWPlugin:getInit(name, version)
+ init.name = name
+ init.version = version
+ return init
 end
  
 -- Method to update the plugin.
