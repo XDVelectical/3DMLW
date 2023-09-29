@@ -9,7 +9,7 @@ local 3DMLWPlugin = {}
 -- @return: Returns a new 3DMLWPlugin object.
 function 3DMLWPlugin.new(name, version)
     local self = setmetatable({}, 3DMLWPlugin)
-    self.name = name
+    self.name = name 
     self.version = version
     return self
 end
