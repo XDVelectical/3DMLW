@@ -64,15 +64,17 @@ print("Plugin Name:", name)
 print("Plugin Version:", version)
  
 -- Initialize the plugin
-plugin:init()
+function plugin:init()
  
 -- Update and render the plugin in a loop
 while true do
     plugin:update()
-    plugin:render()
+    plugin:render() 
 end
  
 -- Handle input events for the plugin
 function onInputEvent(event)
     plugin:handleInput(event)
+  local eventsHandler() 
+  return Handle.events() 
 end
