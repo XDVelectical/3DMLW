@@ -65,6 +65,7 @@ print("Plugin Version:", version)
  
 -- Initialize the plugin
 function plugin:init()
+ local plugin:init()
  
 -- Update and render the plugin in a loop
 while true do
