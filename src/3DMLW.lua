@@ -31,7 +31,7 @@ function 3DMLWPlugin:init()
     -- Add initialization code here
  local 3DMLWPlugin:getInit(name, version)
  init.name = name
- init.version = version
+ init.version = version 
  return init
 end
  
@@ -68,9 +68,10 @@ function plugin:init()
  local plugin:init()
  
 -- Update and render the plugin in a loop
-while true do
+while true do function 
     plugin:update()
     plugin:render() 
+    plugin:load() 
 end
  
 -- Handle input events for the plugin
