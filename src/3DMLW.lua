@@ -69,9 +69,9 @@ function plugin:init()
  
 -- Update and render the plugin in a loop
 while true do function 
-    plugin:update()
-    plugin:render() 
-    plugin:load() 
+  local  plugin:update()
+  local  plugin:render() 
+  local  plugin:load() 
 end
  
 -- Handle input events for the plugin
